@@ -279,42 +279,41 @@
         <div class="brand">
             <div class="title center-align">
                 
-                Website
-                
+                    Website
+                        
             </div>
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
+                    <span id="subtitle"></span>
+                    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+                    <script>
+                        var typed = new Typed("#subtitle", {
+                            strings: [ 
                             
                                 "HeeHoo!",
                             
                         ],
-                        startDelay: 0,
-                        typeSpeed: 10000,
-                        loop: false,
-                        backSpeed: 50,
-                        showCursor: false
+                            startDelay: 0,
+                            typeSpeed: 0,
+                            loop: false,
+                            backSpeed: 50,
+                            showCursor: false
                     });
-                </script>
-                
+                    </script>
+                    
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-
-
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.png';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
+    
     </div>
 </div>
 
