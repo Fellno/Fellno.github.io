@@ -4,11 +4,36 @@
   
     
     <entry>
-      <title>AHIT test</title>
-      <link href="2021/03/16/ahit-test/"/>
-      <url>2021/03/16/ahit-test/</url>
+      <title>产业链游戏设计”效率“的三个维度</title>
+      <link href="2021/03/15/pipeline-game-factors/"/>
+      <url>2021/03/15/pipeline-game-factors/</url>
       
-        <content type="html"><![CDATA[<h2 id="反拆结论和启示"><a href="#反拆结论和启示" class="headerlink" title="反拆结论和启示"></a>反拆结论和启示</h2><h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><ul><li><strong>玩法</strong> - 合成物方面：合成素材目前讨论分为基类、对策类、修饰类，让合成表尽可能结构化</li><li><strong>世界</strong> - 设计一个主城这种“公共场景”的要点和好处</li><li><strong>世界</strong> - 过图的机制如何引入，并呈现给玩家</li></ul><p><em>下文《时光之帽》统一用AHIT简写指代</em></p><h3 id="玩法-合成物的技能部分及其合成逻辑"><a href="#玩法-合成物的技能部分及其合成逻辑" class="headerlink" title="玩法 - 合成物的技能部分及其合成逻辑"></a>玩法 - 合成物的技能部分及其合成逻辑</h3><ol><li><p><strong>对策类材料为合成产物带来作为对策解决机制的能力</strong></p><p>对项目《合成》的设计，由于世界方面有机制过图的需求，玩法方面有不同类型宠物的需求，可以参考类推AHIT的帽子系统：<u><strong>即引入技能改变游戏体验或是解决游戏机制问题的设计方式</strong></u>：在基础类型的宠物基础上，引入一种“机制对策”类型的合成方式。</p><blockquote><p>如果基础宠物与“机制对策”相关的材料进行合成，则可以在基础的宠物战斗功能上获得一种机制对策<em>（例如：xx材料+眼球 = 会飞的眼球）</em>，这里的眼球隶属于“侦查对策”的对策类合成材料，凡是与这种侦查对策类进行合成的，最终会获得一种看穿雾墙的能力。</p></blockquote><p>以此将过关、开区域需要的独特的机制对策做到合成系统里，借合成结果来发挥对策作用，包括过图或者应对特殊能力怪。</p><p>这个合成结果是被基类+对策类所限制的，和一种对策类合成就只会获得那种对策的合成结果，不存在绝对的随机生成，据此做合成表也会相对有条理。</p></li><li><p><strong>对技能的限制</strong></p><p>同时也需要考虑对这些技能，尤其是对策型的限制，比如AHIT里帽子的效果一次只能激活一个，之后会进入不同程度的GCD，或者遭到动作惩罚。</p><p>类比，即需要考虑对策材料合成到基类上后，基类原本作用是否受影响以及如何表现；再者，对策类与不同对策类直接互相合成有没有限制的问题，正如AHIT的帽子没有能在动作、战斗、地图机制上完全兼顾的，总有偏向，原则上不应该让合成结果拥有多种对策机制。</p></li><li><p><strong>引入修饰类材料修饰合成产物的基类功能、机制类功能</strong></p><p>AHIT这部分确有不足，按之前分析，本文提出应该强调徽章/道具的联动改良效果，而不是喧宾夺主，即以修饰主技能为主；而其相对硬性的独立功能则需要突出其实用性，比如磁铁，而去避免不可替代性，比如直接把钩索等做进动作系统，随关卡进行解锁，而不是占一个装备位。也就是说实现的是<u><strong>实用功能</strong></u>，如果没有实用性增加的只是时空成本，而不是抹去整个体验。</p><p>这样如果给《合成》的合成系统强调”修饰作用“，在可有可无和没有就玩不了中间寻求一个平衡。一方面可以让出空间给玩家自由选择，另一方面也不妨碍去加强、丰富基类和对策类技能的体验。</p></li></ol><h3 id="世界-公共场景"><a href="#世界-公共场景" class="headerlink" title="世界 - 公共场景"></a>世界 - 公共场景</h3><ol><li><p><strong>为什么需要公共场景</strong></p><p>从结构上看，一个沟通游戏各个关卡、给玩家提供中枢作用的“公共场景”是十分必要的，可作为进入关卡的中介、成就、全局养成、进度控制等系统的承载平台，这方面个人认为比较出彩的设计包括了Hades的阴间大殿、奥日2的主城。</p><p>从体验上看，刚才AHIT中分析了，沉浸化行为和历程。</p></li><li><p><strong>公共场景里可以有什么东西</strong></p><ul><li>进入正式关卡的通路，涉及地图机制的需要设置准入</li><li>和经济系统配合的商店</li><li>能让玩家产生“在场沉浸感”的机制：提示游戏世界观的NPC、物品、信息等</li><li>能让玩家产生“历时经历感”的机制：建设、成就、收集</li><li>能让玩家产生“未来导向感”的机制：任务板、紧急事件、进度管理</li></ul></li></ol><blockquote><p>这里展开说一下奥日2世界设计中公共场景的安排:</p><p>奥日2的主城也做了包括机制解锁、长期养成、功能（商店、传送），<u><strong>但是奥日的主城不是出来就有，而是在主线初期的一段并不短的线性流程之后才解锁</strong></u>，之后游戏进入了中期的并行探索阶段。</p><p>由于没有对奥日进行系统的拆解，我这里浅显的理解是，奥日2是通过初期的线性流程先逐步让玩家学习、适应基础的游戏操作和地图机制这个过程是一个纵向的深入，然后再进入主城进行横向的展开。</p><p>为什么这么说，因为奥日2进入主城前有一个非常大的跳跃场景，第一次过去没开传送点时，要经过一段流程比较长的、相对需要操作的平台，这里相当于对玩家之前学习成果的一个检验，其实也是一种“准入”，以确保后面机制加入时，玩家既能体验新的，又能运用之前的操作去配合。这里涉及到机制引入了，也从这里引入下一部分，<u>地图机制的引入</u>。</p></blockquote><h3 id="世界-地图机制引入"><a href="#世界-地图机制引入" class="headerlink" title="世界 - 地图机制引入"></a>世界 - 地图机制引入</h3><ol><li><p><strong>新机制的难度曲线</strong></p><p>机制带来的难度曲线应该平滑，如果一个新机制给玩家，要做到：</p><ul><li>知道有这个机制</li><li>知道用什么去应对这个机制</li><li>知道怎么去应对好这个机制</li><li>我解决这个机制的方案有那些限制</li><li>如何在行云流水的操作中通过这个机制</li></ul><p>因此设计方对应可以这样设计新机制的体验过程：</p><ul><li><p>利用单一的机关、障碍等视觉形式提醒玩家有这个机制</p></li><li><p>在解锁对策技能/道具时，立即进行引导或暗示性的教学，比如面前马上放一个单一的机关</p></li><li><p>尝试将新机制与之前流程的机制配合，逐步增加解决机制的复杂度（时间和空间上），让玩家增强对对策技能的理解和掌控感</p></li><li><p>引入新机制的变体以及限制</p><blockquote><p>比如AHIT眼帽直接关联的隐藏地形机制，包括了绿地形、紫地形、红地形，与绿地形逻辑完全相反的紫地板、和让眼帽完全失效的红地形，都是玩家在大量使用眼帽通过绿地板后引进的。</p></blockquote></li><li><p>此时，玩家对新机制和对策的知识模型相对完整，玩家会知道什么时候用、什么时候不该用，什么时候没有用</p></li><li><p>此后再次增强机制的配合，让玩家形成一种认知基模，即从被动导引到知识集束，最后形成决策控制</p></li></ul></li><li><p><strong>对策和机制对应，场景也可以和机制对应</strong></p><p>为了避免引入机制太混乱，首先做这类存在并行流程的探索冒险内容时，可以一个大场景解锁一个新机制。在解锁新机制的场景中完成上述的引导。然后越往后的场景越需要用到综合的机制。</p></li><li><p><strong>公共场景和关卡间的准入</strong></p><p>结合公共场景与机制引入，可以为公共场景 - 关卡间设计一个“准入”，这个准入就是利用新机制获得的</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="产业链游戏设计”效率“的三个维度：配比、路径、科技"><a href="#产业链游戏设计”效率“的三个维度：配比、路径、科技" class="headerlink" title="产业链游戏设计”效率“的三个维度：配比、路径、科技"></a>产业链游戏设计”效率“的三个维度：配比、路径、科技</h2><h3 id="一、产业配比"><a href="#一、产业配比" class="headerlink" title="一、产业配比"></a>一、产业配比</h3><p><strong>产业链结构问题</strong>：玩家要得到的是何种产物？</p><blockquote><p><strong>线性结构：</strong>采集资源 -&gt; I级加工资源 -&gt; II级加工资源 -&gt; 待生成产物</p><p><strong>组合结构：</strong>采集资源A -&gt; I级加工资源 -&gt; II级加工资源 + 采集资源B -&gt; 待生成产物</p><p><strong>特殊产品/最终商品结构：</strong>加工资源 + 手动资源/代币兑换资源 -&gt; 待生成产物</p></blockquote><p><strong>配比问题</strong>：如何达到<u><strong>材料利用效率</strong></u>的最大化？ Or 每部分材料多少工厂可以达到最佳的生产比率 - 供给侧改革</p><p><strong>生成产物去向：</strong></p><ol><li>科研需求，解锁新产业</li><li>升级需求，升级现有产业</li><li>资源获取，获取代币，制造其他产业链或物品</li></ol><p><img src="https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/2019041733619294.jpeg" alt=""></p><h3 id="二、路径"><a href="#二、路径" class="headerlink" title="二、路径"></a>二、路径</h3><p>路径对应是<u><strong>材料转换/转移效率</strong></u>的最大化问题。</p><p>即资源的输入、输出之间还有一条中介路径，中介路径具有<strong>长度属性、流通量属性、方向属性</strong>。涉及产业配比的，还需考虑<strong>并流、分流</strong>问题。</p><p>实例中，《幸福工厂》对流量的体现尤为明显，《纪元1800》则是存在一个较弱的”中继“，以覆盖范围呈现，约束较小。</p><p>此项比较复杂，小体量游戏有些并未考虑。</p><p><img src="https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/image001_S.jpeg" alt=""></p><h3 id="三、科技研发"><a href="#三、科技研发" class="headerlink" title="三、科技研发"></a>三、科技研发</h3><p>消耗<strong>生产的资源</strong>或<strong>非生产获得的一次性资源</strong>进行研发，研发的对象主要有：</p><blockquote><ol><li>开拓建筑区域，扩大产业范围</li><li>加强目前产业正效益</li><li>减缓目前产业负效应</li><li>加强目前产业单位体积的效率</li></ol></blockquote><p>游戏设计中，科研一般会耗费大量当前游戏阶段的高级产物，需要直接接入产业链进行供应，如果产业链不稳定，科研基本难以为继。</p><p>因此，玩家想升级关键科研，前提：</p><ul><li>一是搭建了一个符合要求且稳健的产业链，需要玩家”投入“，这样一来，关键科研也是下一个游戏阶段的”准入机制“，保证了体验的连贯</li><li>二是如果有非生产获得的资源，本质上也是在鼓励玩家进行地图探索，丰富游戏可玩性</li></ul><p>而升级科研的”解锁“就是”回报“本身，这也成为了游戏推动玩家进行游戏的激励，玩家的体验很大部分源于科研阶段突破后获得的正向报偿和成就感，同时科研结果也促进了玩家产业链”投入“部分的收益，两者形成激励闭环。</p><p><strong><u>综上：</u></strong></p><p><strong>配比</strong>源于游戏数值，是产业链游戏的”经济系统“，是玩家生产什么、生产多少的决策依据</p><p><strong>路径</strong>是玩家的决策结果，根据配比和路径的流通属性能求得一个相对较佳解，但绝不会有唯一解</p><p><strong>科技</strong>升级提供游戏激励与游戏目的，同时明确游戏的阶段性目标，确保体验连贯是关键。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Game Design </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Game Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《时光之帽》关卡设计/世界设计反拆</title>
+      <link href="2020/12/04/ahit-test/"/>
+      <url>2020/12/04/ahit-test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="反拆结论和启示"><a href="#反拆结论和启示" class="headerlink" title="反拆结论和启示"></a>反拆结论和启示</h2><p><a href="https://1drv.ms/b/s!AtydYHLrAY_BgmvlANTFlVkw1MTp?e=JqZlEx">反拆PPT资料（OneDrive Link）</a></p><p><img src="https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/A%20Hat%20In%20Time.png" alt="反拆结构导图"></p><h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h3><ul><li>地图的机制如何引入，并呈现给玩家</li><li>设计一个主城这种“公共场景”的要点和好处</li><li>项目启发：合成素材目前讨论分为基类、对策类、修饰类，让合成表尽可能结构化</li></ul><p><em>下文《时光之帽》统一用AHIT简写指代</em></p><h3 id="一、地图机制引入和玩家引导"><a href="#一、地图机制引入和玩家引导" class="headerlink" title="一、地图机制引入和玩家引导"></a>一、地图机制引入和玩家引导</h3><ol><li><p><strong>新机制的难度曲线</strong></p><p>机制带来的难度曲线应该平滑，如果一个新机制给<u><strong>玩家</strong></u>，要做到：</p><ul><li>知道有这个机制</li><li>知道用什么去应对这个机制</li><li>知道怎么去应对好这个机制</li><li>我解决这个机制的方案有那些限制</li><li>如何在行云流水的操作中通过这个机制</li></ul></li></ol><p>   因此<u><strong>设计方</strong></u>对应可以这样设计新机制的体验过程：</p><ul><li><p>利用单一的机关、障碍等视觉形式提醒玩家有这个机制</p></li><li><p>在解锁对策技能/道具时，立即进行引导或暗示性的教学，比如面前马上放一个单一的机关</p></li><li><p>尝试将新机制与之前流程的机制配合，逐步增加解决机制的复杂度（时间和空间上），让玩家增强对对策技能的理解和掌控感</p></li><li><p>引入新机制的变体以及限制</p><blockquote><p>比如AHIT眼帽直接关联的隐藏地形机制，包括了绿地形、紫地形、红地形，与绿地形逻辑完全相反的紫地板、和让眼帽完全失效的红地形，都是玩家在大量使用眼帽通过绿地板后引进的。</p></blockquote></li><li><p>此时，玩家对新机制和对策的知识模型相对完整，玩家会知道什么时候用、什么时候不该用，什么时候没有用</p></li><li><p>此后再次增强机制的配合，让玩家形成一种认知基模，即从被动导引到知识集束，最后形成决策控制</p></li></ul><ol><li><p><strong>对策和机制对应，场景也可以和机制对应</strong></p><p>为了避免引入机制太混乱，首先做这类存在并行流程的探索冒险内容时，可以一个大场景解锁一个新机制。在解锁新机制的场景中完成上述的引导。然后越往后的场景越需要用到综合的机制。</p></li></ol><ol><li><p><strong>公共场景和关卡间的准入</strong></p><p>结合公共场景与机制引入，可以为公共场景 - 关卡间设计一个游戏机制化的“准入门槛”，这个准入的进入条件就是玩家拥有相应关卡内的对策</p></li></ol><h3 id="二、公共场景的设计"><a href="#二、公共场景的设计" class="headerlink" title="二、公共场景的设计"></a>二、公共场景的设计</h3><ol><li><p><strong>为什么需要公共场景</strong></p><p>从结构上看，一个沟通游戏各个关卡、给玩家提供中枢作用的“公共场景”是十分必要的，可作为进入关卡的中介、成就、全局养成、进度控制等系统的承载平台</p><p>从体验上看，公共场景主要提供沉浸化行为和历程感知。</p></li><li><p><strong>公共场景里可以有什么东西</strong></p><ul><li>进入正式关卡的通路，涉及地图机制的需要设置准入</li><li>和经济系统配合的商店</li><li>能让玩家产生<strong>“在场沉浸感”</strong>的机制：提示游戏世界观的NPC、物品、信息等</li><li>能让玩家产生<strong>“历时经历感”</strong>的机制：建设、成就、收集</li><li>能让玩家产生<strong>“未来导向感”</strong>的机制：任务板、紧急事件、进度管理</li></ul></li></ol><blockquote><p>结合一二部分，展开说一下奥日2的世界设计中前期场景和主城的安排:</p><p>奥日2的主城也做了包括机制解锁、长期养成、功能（商店、传送），<u><strong>但是奥日的主城不是出来就有，而是在主线初期的一段并不短的线性流程之后才解锁</strong></u>，之后游戏进入了中期的并行探索阶段。</p><p>由于没有对奥日进行系统的拆解，我这里浅显的理解是，奥日2是通过初期的线性流程先逐步让玩家学习、适应基础的游戏操作和地图机制这个过程是一个纵向的深入。然后再进入主城进行横向的展开，前往地图各地体验新的游戏机制。</p><p>为什么说“纵向深入”，因为奥日2进入主城前有一个非常大的跳跃场景，第一次过去没开传送点时，要经过一段流程比较长的、相对需要操作的平台。这里相当于对玩家之前学习成果的一个检验，其实也是一种“准入”，以确保后面机制加入时，玩家既能利用新的对策去解决新的机制，又能运用之前学习到的动作操作去配合。</p></blockquote><h3 id="三、项目启发：合成物的技能部分及其合成逻辑"><a href="#三、项目启发：合成物的技能部分及其合成逻辑" class="headerlink" title="三、项目启发：合成物的技能部分及其合成逻辑"></a>三、项目启发：合成物的技能部分及其合成逻辑</h3><ol><li><p><strong>对策类材料为合成产物带来作为对策解决机制的能力</strong></p><p>对项目《合成》的设计，由于世界方面有机制过图的需求，玩法方面有不同类型宠物的需求，可以参考类推AHIT的帽子系统：<u><strong>即引入技能改变游戏体验或是解决游戏机制问题的设计方式</strong></u>：在基础类型的宠物基础上，引入一种“机制对策”类型的合成方式。</p><blockquote><p>如果基础宠物与“机制对策”相关的材料进行合成，则可以在基础的宠物战斗功能上获得一种机制对策<em>（例如：xx材料+眼球 = 会飞的眼球）</em>，这里的眼球隶属于“侦查对策”的对策类合成材料，凡是与这种侦查对策类进行合成的，最终会获得一种看穿雾墙的能力。</p></blockquote><p>以此将过关、开区域需要的独特的机制对策做到合成系统里，借合成结果来发挥对策作用，包括过图或者应对特殊能力怪。</p><p>这个合成结果是被基类+对策类所限制的，和一种对策类合成就只会获得那种对策的合成结果，不存在绝对的随机生成，据此做合成表也会相对有条理。</p></li></ol><ol><li><p><strong>对技能的限制</strong></p><p>同时也需要考虑对这些技能，尤其是对策型的限制，比如AHIT里帽子的效果一次只能激活一个，之后会进入不同程度的GCD，或者遭到动作惩罚。</p><p>类比，即需要考虑对策材料合成到基类上后，基类原本作用是否受影响以及如何表现；再者，对策类与不同对策类直接互相合成有没有限制的问题，正如AHIT的帽子没有能在动作、战斗、地图机制上完全兼顾的，总有偏向，原则上不应该让合成结果拥有多种对策机制。</p></li></ol><ol><li><p><strong>引入修饰类材料修饰合成产物的基类功能、机制类功能</strong></p><p>AHIT这部分确有不足，按之前分析，本文提出应该强调徽章/道具的联动改良效果，而不是喧宾夺主，即以修饰主技能为主；而其相对硬性的独立功能则需要突出其实用性，比如磁铁，而去避免不可替代性，比如直接把钩索等做进动作系统，随关卡进行解锁，而不是占一个装备位。也就是说实现的是<u><strong>实用功能</strong></u>，如果没有实用性增加的只是时空成本，而不是抹去整个体验。</p><p>这样如果给《合成》的合成系统强调”修饰作用“，在可有可无和没有就玩不了中间寻求一个平衡。一方面可以让出空间给玩家自由选择，另一方面也不妨碍去加强、丰富基类和对策类技能的体验。</p></li></ol>]]></content>
       
       
       <categories>
@@ -23,46 +48,6 @@
             <tag> Game Design </tag>
             
             <tag> Level Design </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="2021/03/15/hello-world/"/>
-      <url>2021/03/15/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>动画短片《OctaGlaze 八角琉璃》</title>
-      <link href="2020/12/16/octa-glaze-concept/"/>
-      <url>2020/12/16/octa-glaze-concept/</url>
-      
-        <content type="html"><![CDATA[<h2 id="动画短片视频"><a href="#动画短片视频" class="headerlink" title="动画短片视频"></a>动画短片视频</h2><iframe src="//player.bilibili.com/player.html?aid=28502372&amp;bvid=BV1Qs411373c&amp;cid=49302212&amp;page=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>动画短片《八角琉璃/OctaGlaze》创作于2018年从母校武汉大学本科毕业之际。</p><p>动画以显示、想象中的武大为出发点，以校园代表性建筑与生活场景为核心元素，项目中，我负责场景设计、建模、动画参数调整以及后期合成。</p><p>在项目运行过程中，我们先对动画中关键的场景构建问题、动画编辑问题进行了技术攻关，产出了部分实验性场景。其次，项目组对各场景进行了实地调研，随后在三维软件中按分镜脚本要求对场景进行建模复原、艺术渲染，反复迭代后形成动画场景。同时将场景中的部分关键组件用参数化的形式进行控制，实现对场景的动态修饰。摄像机-场景-人物的完整动画得以呈现。</p><p>动画于2018年8月初发布后，在社交平台快速扩散，被武汉大学学生会官方社交媒体账号转发。同时我们还利用大量边缘素材，整理了公众号文章、艺术设定集等衍生形态并发表在微信、Behance等平台上。迄今动画正片在BiliBili平台上有至少1.1万+次有效播放量。</p><h2 id="场景静帧"><a href="#场景静帧" class="headerlink" title="场景静帧"></a>场景静帧</h2><p><img src="https://i.loli.net/2021/03/16/LDBGZNpnjXtor6C.png" alt=""></p><p><em>武汉大学 正大门</em></p><p><img src="https://i.loli.net/2021/03/16/rUb8lYCVovTIP1m.png" alt=""></p><p><em>武汉大学 工学部图书馆4F</em></p><p><img src="https://i.loli.net/2021/03/16/BjeJ72HfFrRoDdg.png" alt=""></p><p><em>武汉大学 文理学部 樱花大道</em></p><p><img src="https://i.loli.net/2021/03/16/JOFnSQCxzvfBqsh.png" alt=""></p><p><em>武汉大学 文理学部 老斋舍</em></p><p><img src="https://i.loli.net/2021/03/16/eIV43gLdYQlT8An.png" alt=""></p><p><em>武汉大学 文理学部 樱顶老图书馆</em></p><p><img src="https://i.loli.net/2021/03/16/mhnkzKePW7AuVEZ.png" alt=""></p><p><em>武汉大学 工学部 原工学部第1教学楼</em></p><p><img src="https://i.loli.net/2021/03/16/y9sEWK2cJQldXIR.png" alt=""></p><p><em>武汉大学 凌波门 东湖栈桥</em></p><p><img src="https://i.loli.net/2021/03/16/TyxgWpujfIdsRih.jpg" alt=""></p><p><em>武汉大学 文理学部 梅操露天电影院</em></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Portfolio </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> animation </tag>
-            
-            <tag> 3D </tag>
             
         </tags>
       
@@ -90,6 +75,33 @@
             <tag> Game Design </tag>
             
             <tag> Level Design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动画短片《OctaGlaze 八角琉璃》</title>
+      <link href="2020/02/16/octa-glaze-concept/"/>
+      <url>2020/02/16/octa-glaze-concept/</url>
+      
+        <content type="html"><![CDATA[<h2 id="动画短片视频"><a href="#动画短片视频" class="headerlink" title="动画短片视频"></a>动画短片视频</h2><iframe src="//player.bilibili.com/player.html?aid=28502372&amp;bvid=BV1Qs411373c&amp;cid=49302212&amp;page=1" scrolling="no" border="0" width="100%" height="500" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h2 id="项目简介"><a href="#项目简介" class="headerlink" title="项目简介"></a>项目简介</h2><p>动画短片《八角琉璃/OctaGlaze》创作于2018年从母校武汉大学本科毕业之际。</p><p>动画以显示、想象中的武大为出发点，以校园代表性建筑与生活场景为核心元素，项目中，我负责场景设计、建模、动画参数调整以及后期合成。</p><p>在项目运行过程中，我们先对动画中关键的场景构建问题、动画编辑问题进行了技术攻关，产出了部分实验性场景。其次，项目组对各场景进行了实地调研，随后在三维软件中按分镜脚本要求对场景进行建模复原、艺术渲染，反复迭代后形成动画场景。同时将场景中的部分关键组件用参数化的形式进行控制，实现对场景的动态修饰。摄像机-场景-人物的完整动画得以呈现。</p><p>动画于2018年8月初发布后，在社交平台快速扩散，被武汉大学学生会官方社交媒体账号转发。同时我们还利用大量边缘素材，整理了公众号文章、艺术设定集等衍生形态并发表在微信、Behance等平台上。迄今动画正片在BiliBili平台上有至少1.1万+次有效播放量。</p><h2 id="场景静帧"><a href="#场景静帧" class="headerlink" title="场景静帧"></a>场景静帧</h2><p><img src="https://i.loli.net/2021/03/16/LDBGZNpnjXtor6C.png" alt=""></p><p><em>武汉大学 正大门</em></p><p><img src="https://i.loli.net/2021/03/16/rUb8lYCVovTIP1m.png" alt=""></p><p><em>武汉大学 工学部图书馆4F</em></p><p><img src="https://i.loli.net/2021/03/16/BjeJ72HfFrRoDdg.png" alt=""></p><p><em>武汉大学 文理学部 樱花大道</em></p><p><img src="https://i.loli.net/2021/03/16/JOFnSQCxzvfBqsh.png" alt=""></p><p><em>武汉大学 文理学部 老斋舍</em></p><p><img src="https://i.loli.net/2021/03/16/eIV43gLdYQlT8An.png" alt=""></p><p><em>武汉大学 文理学部 樱顶老图书馆</em></p><p><img src="https://i.loli.net/2021/03/16/mhnkzKePW7AuVEZ.png" alt=""></p><p><em>武汉大学 工学部 原工学部第1教学楼</em></p><p><img src="https://i.loli.net/2021/03/16/y9sEWK2cJQldXIR.png" alt=""></p><p><em>武汉大学 凌波门 东湖栈桥</em></p><p><img src="https://i.loli.net/2021/03/16/TyxgWpujfIdsRih.jpg" alt=""></p><p><em>武汉大学 文理学部 梅操露天电影院</em></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Portfolio </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> animation </tag>
+            
+            <tag> 3D </tag>
             
         </tags>
       

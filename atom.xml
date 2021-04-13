@@ -6,7 +6,7 @@
   <link href="https://fellno.github.io/atom.xml" rel="self"/>
   
   <link href="https://fellno.github.io/"/>
-  <updated>2021-03-17T08:23:57.757Z</updated>
+  <updated>2021-04-13T19:24:36.993Z</updated>
   <id>https://fellno.github.io/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>AHIT test</title>
-    <link href="https://fellno.github.io/2021/03/16/ahit-test/"/>
-    <id>https://fellno.github.io/2021/03/16/ahit-test/</id>
-    <published>2021-03-16T08:31:18.000Z</published>
-    <updated>2021-03-17T08:23:57.757Z</updated>
+    <title>产业链游戏设计”效率“的三个维度</title>
+    <link href="https://fellno.github.io/2021/03/15/pipeline-game-factors/"/>
+    <id>https://fellno.github.io/2021/03/15/pipeline-game-factors/</id>
+    <published>2021-03-15T13:07:35.000Z</published>
+    <updated>2021-04-13T19:24:36.993Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;反拆结论和启示&quot;&gt;&lt;a href=&quot;#反拆结论和启示&quot; class=&quot;headerlink&quot; title=&quot;反拆结论和启示&quot;&gt;&lt;/a&gt;反拆结论和启示&lt;/h2&gt;&lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;产业链游戏设计”效率“的三个维度：配比、路径、科技&quot;&gt;&lt;a href=&quot;#产业链游戏设计”效率“的三个维度：配比、路径、科技&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/categories/Game-Design/"/>
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《时光之帽》关卡设计/世界设计反拆</title>
+    <link href="https://fellno.github.io/2020/12/04/ahit-test/"/>
+    <id>https://fellno.github.io/2020/12/04/ahit-test/</id>
+    <published>2020-12-04T08:31:18.000Z</published>
+    <updated>2021-04-13T20:20:12.764Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;反拆结论和启示&quot;&gt;&lt;a href=&quot;#反拆结论和启示&quot; class=&quot;headerlink&quot; title=&quot;反拆结论和启示&quot;&gt;&lt;/a&gt;反拆结论和启示&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
         
       
     
@@ -44,59 +69,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://fellno.github.io/2021/03/15/hello-world/"/>
-    <id>https://fellno.github.io/2021/03/15/hello-world/</id>
-    <published>2021-03-15T10:02:01.672Z</published>
-    <updated>2021-03-15T10:02:01.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>动画短片《OctaGlaze 八角琉璃》</title>
-    <link href="https://fellno.github.io/2020/12/16/octa-glaze-concept/"/>
-    <id>https://fellno.github.io/2020/12/16/octa-glaze-concept/</id>
-    <published>2020-12-16T07:33:56.000Z</published>
-    <updated>2021-03-17T13:41:39.155Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;动画短片视频&quot;&gt;&lt;a href=&quot;#动画短片视频&quot; class=&quot;headerlink&quot; title=&quot;动画短片视频&quot;&gt;&lt;/a&gt;动画短片视频&lt;/h2&gt;&lt;iframe</summary>
-        
-      
-    
-    
-    
-    <category term="Portfolio" scheme="https://fellno.github.io/categories/Portfolio/"/>
-    
-    
-    <category term="animation" scheme="https://fellno.github.io/tags/animation/"/>
-    
-    <category term="3D" scheme="https://fellno.github.io/tags/3D/"/>
-    
-  </entry>
-  
-  <entry>
     <title>横版平台跳跃游戏跳跃动作的分析与复现</title>
     <link href="https://fellno.github.io/2020/11/05/2d-platform-jumping/"/>
     <id>https://fellno.github.io/2020/11/05/2d-platform-jumping/</id>
     <published>2020-11-05T09:37:00.000Z</published>
-    <updated>2021-03-29T05:09:07.871Z</updated>
+    <updated>2021-04-13T19:23:32.037Z</updated>
     
     
       
@@ -115,6 +92,33 @@
     <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
     
     <category term="Level Design" scheme="https://fellno.github.io/tags/Level-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动画短片《OctaGlaze 八角琉璃》</title>
+    <link href="https://fellno.github.io/2020/02/16/octa-glaze-concept/"/>
+    <id>https://fellno.github.io/2020/02/16/octa-glaze-concept/</id>
+    <published>2020-02-16T07:33:56.000Z</published>
+    <updated>2021-04-13T19:15:59.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;动画短片视频&quot;&gt;&lt;a href=&quot;#动画短片视频&quot; class=&quot;headerlink&quot; title=&quot;动画短片视频&quot;&gt;&lt;/a&gt;动画短片视频&lt;/h2&gt;&lt;iframe</summary>
+        
+      
+    
+    
+    
+    <category term="Portfolio" scheme="https://fellno.github.io/categories/Portfolio/"/>
+    
+    
+    <category term="animation" scheme="https://fellno.github.io/tags/animation/"/>
+    
+    <category term="3D" scheme="https://fellno.github.io/tags/3D/"/>
     
   </entry>
   
