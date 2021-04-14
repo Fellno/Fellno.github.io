@@ -6,7 +6,7 @@
   <link href="https://fellno.github.io/atom.xml" rel="self"/>
   
   <link href="https://fellno.github.io/"/>
-  <updated>2021-04-13T19:24:36.993Z</updated>
+  <updated>2021-04-14T08:55:54.459Z</updated>
   <id>https://fellno.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Compo Intro</title>
+    <link href="https://fellno.github.io/2021/04/14/compo-intro/"/>
+    <id>https://fellno.github.io/2021/04/14/compo-intro/</id>
+    <published>2021-04-14T08:55:54.000Z</published>
+    <updated>2021-04-14T08:55:54.459Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>产业链游戏设计”效率“的三个维度</title>
@@ -38,6 +51,33 @@
     
     
     <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《合成》关卡设计第I版原型</title>
+    <link href="https://fellno.github.io/2021/02/02/compo-level-design/"/>
+    <id>https://fellno.github.io/2021/02/02/compo-level-design/</id>
+    <published>2021-02-02T08:03:45.000Z</published>
+    <updated>2021-04-14T08:46:45.737Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;M2W1-工程记录-关卡设计方案&quot;&gt;&lt;a href=&quot;#M2W1-工程记录-关卡设计方案&quot; class=&quot;headerlink&quot; title=&quot;M2W1 工程记录 关卡设计方案&quot;&gt;&lt;/a&gt;M2W1 工程记录 关卡设计方案&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/categories/Game-Design/"/>
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
+    
+    <category term="Level Design" scheme="https://fellno.github.io/tags/Level-Design/"/>
     
   </entry>
   
@@ -73,7 +113,7 @@
     <link href="https://fellno.github.io/2020/11/05/2d-platform-jumping/"/>
     <id>https://fellno.github.io/2020/11/05/2d-platform-jumping/</id>
     <published>2020-11-05T09:37:00.000Z</published>
-    <updated>2021-04-13T19:23:32.037Z</updated>
+    <updated>2021-04-14T06:22:49.082Z</updated>
     
     
       
