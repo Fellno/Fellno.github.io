@@ -6,7 +6,7 @@
   <link href="https://fellno.github.io/atom.xml" rel="self"/>
   
   <link href="https://fellno.github.io/"/>
-  <updated>2021-04-14T08:55:54.459Z</updated>
+  <updated>2021-04-14T18:45:08.466Z</updated>
   <id>https://fellno.github.io/</id>
   
   <author>
@@ -17,24 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Compo Intro</title>
-    <link href="https://fellno.github.io/2021/04/14/compo-intro/"/>
-    <id>https://fellno.github.io/2021/04/14/compo-intro/</id>
-    <published>2021-04-14T08:55:54.000Z</published>
-    <updated>2021-04-14T08:55:54.459Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>产业链游戏设计”效率“的三个维度</title>
     <link href="https://fellno.github.io/2021/03/15/pipeline-game-factors/"/>
     <id>https://fellno.github.io/2021/03/15/pipeline-game-factors/</id>
     <published>2021-03-15T13:07:35.000Z</published>
-    <updated>2021-04-13T19:24:36.993Z</updated>
+    <updated>2021-04-14T18:45:08.466Z</updated>
     
     
       
@@ -82,11 +69,36 @@
   </entry>
   
   <entry>
+    <title>《合成》立项简报</title>
+    <link href="https://fellno.github.io/2021/01/14/compo-intro/"/>
+    <id>https://fellno.github.io/2021/01/14/compo-intro/</id>
+    <published>2021-01-14T08:55:54.000Z</published>
+    <updated>2021-04-14T19:39:05.568Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;《合成》立项简报&quot;&gt;&lt;a href=&quot;#《合成》立项简报&quot; class=&quot;headerlink&quot; title=&quot;《合成》立项简报&quot;&gt;&lt;/a&gt;《合成》立项简报&lt;/h1&gt;&lt;h2 id=&quot;项目介绍&quot;&gt;&lt;a href=&quot;#项目介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/categories/Game-Design/"/>
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
+    
+  </entry>
+  
+  <entry>
     <title>《时光之帽》关卡设计/世界设计反拆</title>
     <link href="https://fellno.github.io/2020/12/04/ahit-test/"/>
     <id>https://fellno.github.io/2020/12/04/ahit-test/</id>
     <published>2020-12-04T08:31:18.000Z</published>
-    <updated>2021-04-13T20:20:12.764Z</updated>
+    <updated>2021-04-14T18:44:55.326Z</updated>
     
     
       
@@ -104,8 +116,6 @@
     
     <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
     
-    <category term="Level Design" scheme="https://fellno.github.io/tags/Level-Design/"/>
-    
   </entry>
   
   <entry>
@@ -113,7 +123,7 @@
     <link href="https://fellno.github.io/2020/11/05/2d-platform-jumping/"/>
     <id>https://fellno.github.io/2020/11/05/2d-platform-jumping/</id>
     <published>2020-11-05T09:37:00.000Z</published>
-    <updated>2021-04-14T06:22:49.082Z</updated>
+    <updated>2021-04-14T18:45:16.250Z</updated>
     
     
       
@@ -130,8 +140,6 @@
     
     
     <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
-    
-    <category term="Level Design" scheme="https://fellno.github.io/tags/Level-Design/"/>
     
   </entry>
   
