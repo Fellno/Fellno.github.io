@@ -6,7 +6,7 @@
   <link href="https://fellno.github.io/atom.xml" rel="self"/>
   
   <link href="https://fellno.github.io/"/>
-  <updated>2021-04-14T18:45:08.466Z</updated>
+  <updated>2021-12-20T18:27:25.275Z</updated>
   <id>https://fellno.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Metroidvania + Action 《暗影火炬城》简析</title>
+    <link href="https://fellno.github.io/2021/12/21/fist/"/>
+    <id>https://fellno.github.io/2021/12/21/fist/</id>
+    <published>2021-12-20T18:21:38.000Z</published>
+    <updated>2021-12-20T18:27:25.275Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;分析角度：银河城游戏&quot;&gt;&lt;a href=&quot;#分析角度：银河城游戏&quot; class=&quot;headerlink&quot; title=&quot;分析角度：银河城游戏&quot;&gt;&lt;/a&gt;分析角度：银河城游戏&lt;/h2&gt;&lt;p&gt;一句话描述：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Metroidvania</summary>
+        
+      
+    
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/categories/Game-Design/"/>
+    
+    
+    <category term="Game Design" scheme="https://fellno.github.io/tags/Game-Design/"/>
+    
+  </entry>
   
   <entry>
     <title>产业链游戏设计”效率“的三个维度</title>
@@ -46,7 +72,7 @@
     <link href="https://fellno.github.io/2021/02/02/compo-level-design/"/>
     <id>https://fellno.github.io/2021/02/02/compo-level-design/</id>
     <published>2021-02-02T08:03:45.000Z</published>
-    <updated>2021-04-14T08:46:45.737Z</updated>
+    <updated>2021-12-20T18:30:30.029Z</updated>
     
     
       
@@ -73,7 +99,7 @@
     <link href="https://fellno.github.io/2021/01/14/compo-intro/"/>
     <id>https://fellno.github.io/2021/01/14/compo-intro/</id>
     <published>2021-01-14T08:55:54.000Z</published>
-    <updated>2021-04-14T19:39:05.568Z</updated>
+    <updated>2021-12-20T18:30:36.090Z</updated>
     
     
       
