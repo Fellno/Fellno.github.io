@@ -21,6 +21,10 @@
 encoding: utf-8
 timezone: Asia/Beijing
 
+header_pages:
+ - index.md
+ - about.md
+
 title: MUSHROOMANIA
 email: meeyfellno@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
