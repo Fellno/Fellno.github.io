@@ -9,4 +9,4 @@ tags:
 
 ## 上传测试
 
-<img src="https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20250624015254603.png" alt="震动参数" />
+![震动参数](https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20250624015254603.png)
