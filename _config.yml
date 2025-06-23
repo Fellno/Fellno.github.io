@@ -40,7 +40,6 @@ github_username:  jekyll
 theme: jekyll-theme-console
 plugins:
   - jekyll-feed
-  - jekyll-csp
 
 style: light
 
