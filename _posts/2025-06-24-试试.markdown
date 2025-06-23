@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "试试"
+title:  "Camera Shake"
 date:   2025-06-24 01:33:34 +0800
 categories: [3C]
 tags: [摄像机]
 ---
 
-## 测
+## 上传测试
 
-111
+![image-20250624015254603](https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20250624015254603.png)
