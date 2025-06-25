@@ -43,10 +43,6 @@ plugins:
 
 style: light
 
-webrick:
-  headers:
-    Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self' https://fellno-io-picgo.oss-cn-hangzhou.aliyuncs.com https://*.oss-cn-hangzhou.aliyuncs.com; style-src 'self'; 
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
